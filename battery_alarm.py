@@ -23,11 +23,12 @@ while True:
     if cnt==1 :
 
         if to_int <= 15:
+	    os.system("echo 1370 | sudo -S echo 11 | sudo  tee /sys/class/backlight/intel_backlight/brightness")
             call_here()
             cnt=2
     if cnt==2 and to_int<=10:
-
+	os.system("echo 1370 | sudo -S echo 11 | sudo  tee /sys/class/backlight/intel_backlight/brightness")
         call_here()
         cnt=0
-
-    time.sleep(4)
+    f.close()
+    time.sleep(3)
