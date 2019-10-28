@@ -5,6 +5,8 @@ TLP and other softwares are also there but when when battery is getting low lapt
 hence this file might add some alarm to the laptop
 
 first download the given python file in a folder 
+open it
+replace the 1370 with your pc password
 
 steps:
 1: open "startup applications" from dock or "search your computer" from where you can search all the applications
