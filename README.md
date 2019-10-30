@@ -5,12 +5,14 @@ TLP and other softwares are also there but when when battery is getting low lapt
 hence this file might add some alarm to the laptop
 '''
 (1) first download the given python file in a folder '''
-'''(2) open it'''
-'''(3) replace the 1370 with your pc password
-'''
 
-'''
-copy the file in into your /bin folder
 
+
+  open terminal and type "sudo cp -i /path_of_your_file /bin"  
+  ---
+  then type "sudo crontab -e"
+  ----
+  after all the hashes type:  "@reboot python /bin/battery_alarm.py &" 
+  -
   restart
 '''
