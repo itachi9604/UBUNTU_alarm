@@ -10,9 +10,5 @@ hence this file might add some alarm to the laptop
 '''
 
 '''
-steps:
-1: open "startup applications" from dock or "search your computer" from where you can search all the applications...
-2: enter the name of startup..
-3: enter in command "python /path to your file"....
-4: save and restart...
+copy the file in into your /bin folder
 '''
