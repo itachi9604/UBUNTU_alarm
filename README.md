@@ -11,4 +11,6 @@ hence this file might add some alarm to the laptop
 
 '''
 copy the file in into your /bin folder
+
+  restart
 '''
